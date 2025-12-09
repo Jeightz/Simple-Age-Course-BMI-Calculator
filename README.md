@@ -22,10 +22,10 @@ Created  In HTML,CSS and PHP this project meant for a great example for beginner
 -  Basic PHP
 ## Preview 
 
-![DASHBOARD](https://imgur.com/DThOrmW)
-![AGE-CALCULATOR](https://imgur.com/TRJICkz)
-![COURSE-CALCULATOR](https://imgur.com/MFpnXbi)
-![BMI-CALCULATOR](https://imgur.com/PPSsXkT)
+![DASHBOARD](https://imgur.com/gallery/nothing-vw5jTLd#DThOrmW)
+![AGE-CALCULATOR](https://imgur.com/gallery/nothing-vw5jTLd#TRJICkz)
+![COURSE-CALCULATOR](https://imgur.com/gallery/nothing-vw5jTLd#MFpnXbi)
+![BMI-CALCULATOR](https://imgur.com/gallery/nothing-vw5jTLd#PPSsXkT)
 
 
 ### Note
