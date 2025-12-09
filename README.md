@@ -11,9 +11,9 @@ Created  In HTML,CSS and PHP this project meant for a great example for beginner
 
 ## 💻Technologies
 
--HTML
--CSS
--PHP
+-  HTML
+-  CSS
+-  PHP
 
 ## 📚What i Learn
 -  Basic HTML
