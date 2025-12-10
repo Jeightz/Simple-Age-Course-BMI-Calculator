@@ -1,4 +1,15 @@
- <!DOCTYPE html>
+<?php
+$result = "Age Calculator";
+if(isset($_POST['submit'])){
+    $birthdate = $_POST['birthdate'];
+    $today = date("Y-m-d");
+    $age = date_diff(date_create($birthdate),date_create($today))->y;
+    $result = "your age is $age"; 
+}
+?>
+
+
+<!DOCTYPE html>
  <html lang="en">
  <head>
   <meta charset="UTF-8">
@@ -8,7 +19,7 @@
  </head>
 <body style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
  url(/Age-Course-BMI_Calculator/Img/age.jpg);background-size: cover; ">  
- <h1 id="dashboardText">Welcome to Age Calculator</h1>
+ <h1 id="dashboardText"><?php echo $result ?></h1>
 
 
  <div class = "form-parent-container" >
@@ -23,5 +34,4 @@
 
  </body>
  </html>
- 
  

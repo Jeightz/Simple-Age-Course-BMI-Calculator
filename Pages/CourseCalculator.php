@@ -1,3 +1,25 @@
+<?php
+$result = "Course Calculator";
+if(isset($_POST['submit'])){
+  $g1 = $_POST['grade1'];
+  $g2 = $_POST['grade2'];
+  $g3 = $_POST['grade3'];
+  $g4 = $_POST['grade4'];
+  $g5 = $_POST['grade5'];
+  $g6 = $_POST['grade6'];
+  $g7 = $_POST['grade7'];
+
+  $total = $g1 +$g2 +$g3 +$g4 +$g5 +$g6 +$g7 ;
+  $average = $total / 7;
+  $result = "your average is $average";
+
+
+}
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +31,7 @@
  <body style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
  url(/Age-Course-BMI_Calculator/Img/grade.jpg);background-size: cover; ">
 
- <h1 id="dashboardText">Welcome to Course Calculator</h1>
+ <h1 id="dashboardText"><?php echo $result ?></h1>
 <div class = "form-parent-container" >
   <div class="form-container" >
     <h1>Course Calculator</h1>
